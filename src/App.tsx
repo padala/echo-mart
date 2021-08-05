@@ -3,14 +3,17 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import Routes from './routes';
 
-// import logo from './logo.svg';
 import './App.css';
+import Header from './components/partials/header';
 
 function App(): JSX.Element {
   return (
-    <Router>
-      <Routes />
-    </Router>
+    <>
+      <Header />
+      <Router>
+        <Routes />
+      </Router>
+    </>
   );
 }
 
