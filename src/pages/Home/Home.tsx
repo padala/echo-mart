@@ -87,15 +87,6 @@ function Home(): JSX.Element {
         </div>
         {isCartExpanded ? <CartPanel expandCart={expandCart} /> : null}
       </div>
-
-      {/* <div className="text-center">
-      <p>
-        Edit <code>src/App.tsx</code> and save to reload.
-      </p>
-      <a className="text-blue-200" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        Learn React
-      </a>
-    </div> */}
     </>
   );
 }
