@@ -4,9 +4,9 @@ import { Product } from '@/models/product';
 import useLocalStorage from '@/utilities/useLocalStorage';
 import React, { MouseEvent, useState } from 'react';
 import { useQuery } from 'react-query';
-import Header from '../../components/partials/Header';
-import ProductCard from '../../components/ProductCard';
-import getProducts from '../../utilities/products';
+import Header from '@/components/partials/Header';
+import ProductCard from '@/components/ProductCard';
+import getProducts from '@/utilities/products';
 import CategoriesFilter from './CategoriesFilter';
 
 function Home(): JSX.Element {
